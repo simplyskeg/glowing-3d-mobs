@@ -1,0 +1,32 @@
+name: zippy zip
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: zip
+        run: |
+          mkdir release
+
+          zip -r release/glowing-3d-mobs.zip . \
+            -x ".git/*" \
+               ".github/*" \
+               ".gitignore" \
+               "release/*"
+
+      - name: upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: glowing-3d-mobs
+          path: release/glowing-3d-mobs.zip
+          if-no-files-found: error

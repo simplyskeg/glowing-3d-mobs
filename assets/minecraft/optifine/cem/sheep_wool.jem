@@ -1,0 +1,117 @@
+{
+	"credit": "TIXUL",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -19, -2],
+			"submodels": [
+				{
+					"id": "rotation",
+					"invertAxis": "xy",
+					"translate": [0, 19, 2],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-6, -7, -12, 12, 18, 12], "textureOffset": [0, 0]}
+					],
+					"submodels": [
+						{
+							"id": "bone2",
+							"invertAxis": "xy",
+							"translate": [-10.33333, 3.81179, -11.91534],
+							"rotate": [90, 0, 0],
+							"submodels": [
+								{
+									"id": "leg",
+									"invertAxis": "xy",
+									"translate": [7.33333, 0.91534, -3.18821],
+									"boxes": [
+										{"coordinates": [-3, -5, -3, 6, 6, 6], "textureOffset": [0, 52]}
+									]
+								},
+								{
+									"id": "leg5",
+									"invertAxis": "xy",
+									"mirrorTexture": "u",
+									"translate": [13.33333, 0.91534, -3.18821],
+									"boxes": [
+										{"coordinates": [-3, -5, -3, 6, 6, 6], "textureOffset": [0, 52]}
+									]
+								},
+								{
+									"id": "leg6",
+									"invertAxis": "xy",
+									"translate": [7.33333, 0.91534, 6.81179],
+									"boxes": [
+										{"coordinates": [-3, -5, -3, 6, 6, 6], "textureOffset": [0, 52]}
+									]
+								},
+								{
+									"id": "leg7",
+									"invertAxis": "xy",
+									"mirrorTexture": "u",
+									"translate": [13.33333, 0.91534, 6.81179],
+									"boxes": [
+										{"coordinates": [-3, -5, -3, 6, 6, 6], "textureOffset": [0, 52]}
+									]
+								},
+								{
+									"id": "head2",
+									"invertAxis": "xy",
+									"translate": [10.33333, 10.06522, -4.73039],
+									"rotate": [-45, 0, 0],
+									"boxes": [
+										{"coordinates": [-3.5, -1.04482, -3.75294, 7, 7, 6], "textureOffset": [38, 51]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"rotation.rx": 0,
+					"head2.ry": "clamp(torad(head_yaw),torad(-60),torad(60))",
+					"head2.rx": "torad(45)+clamp(torad(head_pitch),torad(-60),torad(60))",
+					"leg.rx": "-sin(limb_swing)*limb_speed",
+					"leg5.rx": "sin(limb_swing)*limb_speed",
+					"leg6.rx": "sin(limb_swing)*limb_speed",
+					"leg7.rx": "-sin(limb_swing)*limb_speed"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 8]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-3, -12, -7]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [3, -12, -7]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-3, -12, 5]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [3, -12, 5]
+		}
+	]
+}

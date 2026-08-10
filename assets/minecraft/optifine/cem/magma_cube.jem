@@ -1,0 +1,89 @@
+{
+	"credit": "TIXUL",
+	"textureSize": [64, 64],
+	"texture": "magma_cube.png",
+	"models": [
+		{
+			"part": "segment1",
+			"id": "segment1",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 7, -4, 8, 1, 8], "textureOffset": [0, 0], "shade": false}
+			]
+		},
+		{
+			"part": "segment2",
+			"id": "segment2",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 6, -4, 8, 1, 8], "textureOffset": [0, 9], "shade": false}
+			]
+		},
+		{
+			"part": "segment3",
+			"id": "segment3",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 5, -4, 8, 1, 8], "textureOffset": [0, 18], "shade": false}
+			]
+		},
+		{
+			"part": "segment4",
+			"id": "segment4",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 4, -4, 8, 1, 8], "textureOffset": [0, 27], "shade": false}
+			]
+		},
+		{
+			"part": "segment5",
+			"id": "segment5",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 3, -4, 8, 1, 8], "textureOffset": [32, 0], "shade": false}
+			]
+		},
+		{
+			"part": "segment6",
+			"id": "segment6",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 2, -4, 8, 1, 8], "textureOffset": [32, 9], "shade": false}
+			]
+		},
+		{
+			"part": "segment7",
+			"id": "segment7",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 1, -4, 8, 1, 8], "textureOffset": [32, 18], "shade": false}
+			]
+		},
+		{
+			"part": "segment8",
+			"id": "segment8",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -4, 8, 1, 8], "textureOffset": [32, 27], "shade": false}
+			]
+		},
+		{
+			"part": "core",
+			"id": "core",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-2, 2, -2, 4, 4, 4], "textureOffset": [24, 40], "shade": false,  "light_emission": 15},
+				{"coordinates": [-2, 2, -2, 4, 4, 4], "textureOffset": [48, 56], "sizeAdd": 0.5, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+			]
+		}
+	]
+}

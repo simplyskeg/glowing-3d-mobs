@@ -1,0 +1,12 @@
+{
+	"credit": "TIXUL",
+	"textureSize": [32, 32],
+	"models": [
+		{
+			"part": "eyes",
+			"id": "eyes",
+			"invertAxis": "xy",
+			"translate": [0, -20, 0]
+		}
+	]
+}

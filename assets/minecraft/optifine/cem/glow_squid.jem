@@ -1,0 +1,246 @@
+{
+	"credit": "TIXUL",
+	"textureSize": [64, 64],
+	"texture": "glowsquid.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -25, 0],
+			"boxes": [
+				{"coordinates": [-5, 17, -5, 10, 9, 10], "textureOffset": [0, 0], "shade": false,  "light_emission": 15},
+				{"coordinates": [-5, 17, -5, 10, 9, 10], "textureOffset": [0, 45], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+			],
+			"submodels": [
+				{
+					"id": "mouth1",
+					"invertAxis": "xy",
+					"translate": [1.75, 25.25, -1.75],
+					"boxes": [
+						{"coordinates": [-1.75, 0.75, -2.25, 4, 9, 4], "textureOffset": [0, 19], "shade": false,  "light_emission": 15},
+						{"coordinates": [-1.75, 0.75, -1.25, 3, 8, 3], "textureOffset": [52, 53], "shade": false,  "light_emission": 15}
+					],
+					"submodels": [
+						{
+							"id": "outline4",
+							"invertAxis": "xy",
+							"translate": [1.15, 7.75, -1.35],
+							"boxes": [
+								{"coordinates": [-3, 1, 0, 3, 1, 3], "textureOffset": [10, 41], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15},
+								{"coordinates": [0, -7, 0, 1, 9, 3], "textureOffset": [0, 43], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15},
+								{"coordinates": [-3, -7, -1, 4, 9, 1], "textureOffset": [30, 45], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+							]
+						}
+					]
+				},
+				{
+					"id": "mouth3",
+					"invertAxis": "xy",
+					"translate": [1.75, 25.25, 1.75],
+					"boxes": [
+						{"coordinates": [-1.75, 0.75, -1.75, 4, 9, 4], "textureOffset": [48, 13], "shade": false,  "light_emission": 15},
+						{"coordinates": [-1.75, 0.75, -1.75, 3, 8, 3], "textureOffset": [52, 42], "shade": false,  "light_emission": 15}
+					],
+					"submodels": [
+						{
+							"id": "outline3",
+							"invertAxis": "xy",
+							"translate": [0.30833, 6.58333, 0.48333],
+							"rotate": [0, -90, 0],
+							"boxes": [
+								{"coordinates": [-2.33333, 2.16667, -0.83333, 3, 1, 3], "textureOffset": [10, 41], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15},
+								{"coordinates": [0.66667, -5.83333, -0.83333, 1, 9, 3], "textureOffset": [0, 43], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15},
+								{"coordinates": [-2.33333, -5.83333, -1.83333, 4, 9, 1], "textureOffset": [30, 45], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+							]
+						}
+					]
+				},
+				{
+					"id": "mouth2",
+					"invertAxis": "xy",
+					"translate": [-1.75, 25.25, -1.75],
+					"boxes": [
+						{"coordinates": [-2.25, 0.75, -2.25, 4, 9, 4], "textureOffset": [48, 0], "shade": false,  "light_emission": 15}
+					],
+					"submodels": [
+						{
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"boxes": [
+								{"coordinates": [-1.25, 0.75, -1.25, 3, 8, 3], "textureOffset": [52, 53], "shade": false,  "light_emission": 15}
+							]
+						},
+						{
+							"id": "outline2",
+							"invertAxis": "xy",
+							"translate": [-0.41667, 6.58333, -0.68333],
+							"rotate": [0, 90, 0],
+							"boxes": [
+								{"coordinates": [-2.33333, 2.16667, -0.83333, 3, 1, 3], "textureOffset": [10, 41], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15},
+								{"coordinates": [0.66667, -5.83333, -0.83333, 1, 9, 3], "textureOffset": [0, 43], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15},
+								{"coordinates": [-2.33333, -5.83333, -1.83333, 4, 9, 1], "textureOffset": [30, 45], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+							]
+						}
+					]
+				},
+				{
+					"id": "mouth4",
+					"invertAxis": "xy",
+					"translate": [-1.75, 25.25, 1.75],
+					"rotate": [0, -180, 0],
+					"boxes": [
+						{"coordinates": [-1.75, 0.75, -2.25, 4, 9, 4], "textureOffset": [0, 19], "shade": false,  "light_emission": 15},
+						{"coordinates": [-1.75, 0.75, -1.25, 3, 8, 3], "textureOffset": [52, 53], "shade": false,  "light_emission": 15}
+					],
+					"submodels": [
+						{
+							"id": "outline",
+							"invertAxis": "xy",
+							"translate": [0.58333, 6.58333, -0.31667],
+							"boxes": [
+								{"coordinates": [-2.33333, 2.16667, -0.83333, 3, 1, 3], "textureOffset": [10, 41], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15},
+								{"coordinates": [0.66667, -5.83333, -0.83333, 1, 9, 3], "textureOffset": [0, 43], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15},
+								{"coordinates": [-2.33333, -5.83333, -1.83333, 4, 9, 1], "textureOffset": [30, 45], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"mouth1.rx": "if(limb_speed==0, 0 ,0.13 + sin(limb_swing/2)*limb_speed/5)",
+					"mouth1.rz": "if(limb_speed==0, 0 ,-0.13 + -sin(limb_swing/2)*limb_speed/5)",
+					"mouth2.rz": "if(limb_speed==0, 0 ,0.13 + sin(limb_swing/2)*limb_speed/5)",
+					"mouth2.rx": "if(limb_speed==0, 0 ,0.13 + sin(limb_swing/2)*limb_speed/5)",
+					"mouth3.rx": "if(limb_speed==0, 0 , -0.13 + -sin(limb_swing/2)*limb_speed/5)",
+					"mouth3.rz": "if(limb_speed==0, 0 , -0.13 + -sin(limb_swing/2)*limb_speed/5)",
+					"mouth4.rx": "if(limb_speed==0, 0 ,0.13 + sin(limb_swing/2)*limb_speed/5)",
+					"mouth4.rz": "if(limb_speed==0, 0 ,0.13 + sin(limb_swing/2)*limb_speed/5)"
+				}
+			]
+		},
+		{
+			"part": "tentacle1",
+			"id": "tentacle1",
+			"invertAxis": "xy",
+			"translate": [5, -18, 0],
+			"rotate": [0, -90, 0],
+			"boxes": [
+				{"coordinates": [-6, 8, -2, 2, 10, 2], "textureOffset": [24, 19], "shade": false,  "light_emission": 15},
+				{"coordinates": [-6, 8, -2, 2, 10, 2], "textureOffset": [36, 30], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle2",
+			"id": "tentacle2",
+			"invertAxis": "xy",
+			"translate": [3.5, -18, -3.5],
+			"rotate": [0, -45, 0],
+			"boxes": [
+				{"coordinates": [-4.5, 10, 2.5, 2, 8, 2], "textureOffset": [16, 19], "shade": false,  "light_emission": 15},
+				{"coordinates": [-4.5, 10, 2.5, 2, 8, 2], "textureOffset": [49, 28], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle3",
+			"id": "tentacle3",
+			"invertAxis": "xy",
+			"translate": [0, -18, -5],
+			"boxes": [
+				{"coordinates": [-1, 8, 3, 2, 10, 2], "textureOffset": [24, 19], "shade": false,  "light_emission": 15},
+				{"coordinates": [-1, 8, 3, 2, 10, 2], "textureOffset": [36, 30], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+			]
+		},
+		{
+			"part": "tentacle4",
+			"id": "tentacle4",
+			"invertAxis": "xy",
+			"translate": [-3.5, -18, -3.5],
+			"rotate": [0, 45, 0],
+			"boxes": [
+				{"coordinates": [2.5, 10, 2.5, 2, 8, 2], "textureOffset": [16, 19], "shade": false,  "light_emission": 15},
+				{"coordinates": [2.5, 10, 2.5, 2, 8, 2], "textureOffset": [49, 28], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle5",
+			"id": "tentacle5",
+			"invertAxis": "xy",
+			"translate": [-5, -18, 0],
+			"rotate": [0, 90, 0],
+			"boxes": [
+				{"coordinates": [4, 8, -2, 2, 10, 2], "textureOffset": [24, 19], "shade": false,  "light_emission": 15},
+				{"coordinates": [4, 8, -2, 2, 10, 2], "textureOffset": [36, 30], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle6",
+			"id": "tentacle6",
+			"invertAxis": "xy",
+			"translate": [-3.5, -18, 3.5],
+			"rotate": [0, 135, 0],
+			"boxes": [
+				{"coordinates": [2.5, 10, -4.5, 2, 8, 2], "textureOffset": [16, 19], "shade": false,  "light_emission": 15},
+				{"coordinates": [2.5, 10, -4.5, 2, 8, 2], "textureOffset": [49, 28], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle7",
+			"id": "tentacle7",
+			"invertAxis": "xy",
+			"translate": [0, -18, 5],
+			"rotate": [0, -180, 0],
+			"boxes": [
+				{"coordinates": [-1, 8, -7, 2, 10, 2], "textureOffset": [24, 19], "shade": false,  "light_emission": 15},
+				{"coordinates": [-1, 8, -7, 2, 10, 2], "textureOffset": [36, 30], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "tentacle8",
+			"id": "tentacle8",
+			"invertAxis": "xy",
+			"translate": [3.5, -18, 3.5],
+			"rotate": [0, -135, 0],
+			"boxes": [
+				{"coordinates": [-4.5, 10, -4.5, 2, 8, 2], "textureOffset": [16, 19], "shade": false,  "light_emission": 15},
+				{"coordinates": [-4.5, 10, -4.5, 2, 8, 2], "textureOffset": [49, 28], "sizeAdd": 0.3, "renderFaces":"inner", "shade": false,  "light_emission": 15}
+			],
+			"animations": [
+				{
+					"this.ry": 0
+				}
+			]
+		}
+	]
+}

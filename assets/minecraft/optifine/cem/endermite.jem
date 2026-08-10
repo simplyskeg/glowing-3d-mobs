@@ -1,0 +1,86 @@
+{
+	"credit": "TIXUL",
+	"textureSize": [32, 32],
+	"texture": "endermite.png",
+	"models": [
+		{
+			"part": "body1",
+			"id": "body1",
+			"invertAxis": "xy",
+			"translate": [0, -3, 3.5]
+		},
+		{
+			"part": "body2",
+			"id": "body2",
+			"invertAxis": "xy",
+			"translate": [0, -4, 0],
+			"boxes": [
+				{"coordinates": [-3, 0, -4.5, 6, 5, 6], "textureOffset": [0, 0]},
+				{"coordinates": [-2, 1, 1.5, 4, 3, 3], "textureOffset": [0, 11], "sizeAdd": 0.5, "shade": false,  "light_emission": 15},
+				{"coordinates": [1.75, 4, -7.5, 0, 3, 3], "textureOffset": [0, 17]}
+			],
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [-1.75, 4, -7.5, 0, 3, 3], "textureOffset": [0, 17]},
+						{"coordinates": [-3, 0, 1.5, 6, 5, 4], "textureOffset": [12, 23], "renderFaces":"inner", "shade": false,  "light_emission": 15}
+					]
+				},
+				{
+					"id": "leg1",
+					"invertAxis": "xy",
+					"translate": [-3, 0, -3],
+					"boxes": [
+						{"coordinates": [-1, 0, -0.5, 1, 0, 1], "textureOffset": [6, 17]}
+					]
+				},
+				{
+					"id": "leg4",
+					"invertAxis": "xy",
+					"translate": [3, 0, -3],
+					"boxes": [
+						{"coordinates": [0, 0, -0.5, 1, 0, 1], "textureOffset": [10, 17]}
+					]
+				},
+				{
+					"id": "leg2",
+					"invertAxis": "xy",
+					"translate": [-3, 0, -1],
+					"boxes": [
+						{"coordinates": [-1, 0, -0.5, 1, 0, 1], "textureOffset": [14, 17]}
+					]
+				},
+				{
+					"id": "leg3",
+					"invertAxis": "xy",
+					"translate": [3, 0, -1],
+					"boxes": [
+						{"coordinates": [0, 0, -0.5, 1, 0, 1], "textureOffset": [6, 18]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"leg1.ry": "sin(limb_swing)*limb_speed",
+					"leg2.ry": "-sin(limb_swing)*limb_speed",
+					"leg3.ry": "-sin(limb_swing)*limb_speed",
+					"leg4.ry": "sin(limb_swing)*limb_speed"
+				}
+			]
+		},
+		{
+			"part": "body3",
+			"id": "body3",
+			"invertAxis": "xy",
+			"translate": [0, -3, -3]
+		},
+		{
+			"part": "body4",
+			"id": "body4",
+			"invertAxis": "xy",
+			"translate": [0, -2, -4]
+		}
+	]
+}

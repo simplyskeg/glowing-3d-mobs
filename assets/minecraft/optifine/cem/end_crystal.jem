@@ -1,0 +1,50 @@
+{
+	"credit": "TIXUL",
+	"textureSize": [64, 64],
+	"texture": "end_crystal.png",
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"rotate": [-180, 0, 0],
+			"boxes": [
+				{"coordinates": [-6, -4, -6, 12, 4, 12], "textureOffset": [0, 16], "shade": false}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "cube",
+			"id": "cube",
+			"invertAxis": "xy",
+			"translate": [0, -10, 0],
+			"boxes": [
+				{"coordinates": [-4, 6, -4, 8, 8, 8], "textureOffset": [32, 0], "shade": false, "light_emission": 15},
+				{"coordinates": [-4, 6, -4, 8, 8, 8], "textureOffset": [0, 48], "sizeAdd": 0.25, "renderFaces":"inner", "shade": false, "light_emission": 15}
+			]
+		},
+		{
+			"part": "inner_glass",
+			"id": "inner_glass",
+			"invertAxis": "xy",
+			"translate": [0, -10, 0],
+			"boxes": [
+				{"coordinates": [-4, 6, -4, 8, 8, 8], "textureOffset": [0, 0], "shade": false}
+			]
+		},
+		{
+			"part": "outer_glass",
+			"id": "outer_glass",
+			"invertAxis": "xy",
+			"translate": [0, -10, 0],
+			"boxes": [
+				{"coordinates": [-4, 6, -4, 8, 8, 8], "textureOffset": [0, 0], "shade": false}
+			]
+		}
+	]
+}

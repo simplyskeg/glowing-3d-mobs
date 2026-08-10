@@ -1,0 +1,17 @@
+{
+	"credit": "TIXUL",
+	"textureSize": [64, 32],
+	"texture": "slime_outer.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 0.25, -4, 8, 8, 8], "textureOffset": [0, 0], "shade": false},
+				{"coordinates": [-4, 0.25, -4, 8, 8, 8], "textureOffset": [32, 0], "sizeAdd": 0.25, "renderFaces":"inner", "shade": false}
+			]
+		}
+	]
+}
